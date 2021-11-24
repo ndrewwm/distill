@@ -281,7 +281,7 @@ sup {
 }
 
 span {
-  color: hsla(206, 90%, 20%, 0.7);
+  color: var(--d-footnote-color, hsla(206, 90%, 20%, 0.7));
   cursor: default;
 }
 
@@ -348,7 +348,7 @@ d-footnote-list a.footnote-backlink {
   left: 0;
   width: 100%;
   border: 1px solid rgba(0, 0, 0, 0.1);
-  background-color: rgba(250, 250, 250, 0.95);
+  background-color: var(--d-footnote-hover-bg, rgba(250, 250, 250, 0.95));
   box-shadow: 0 0 7px rgba(0, 0, 0, 0.1);
   border-radius: 4px;
   box-sizing: border-box;
